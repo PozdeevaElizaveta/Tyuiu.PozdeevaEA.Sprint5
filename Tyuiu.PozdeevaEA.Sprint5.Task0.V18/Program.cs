@@ -25,18 +25,19 @@ internal class Program
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
         Console.WriteLine("***************************************************************************");
 
-        Console.WriteLine("Дано выражение: ");
+        Console.WriteLine("Дано выражение:                                                           *");
         Console.WriteLine("*                   x                                                     *");
         Console.WriteLine("*      y(x) =  -----------                x = 3                           *");
         Console.WriteLine("*              /---2------                                                *");
         Console.WriteLine("*             /   x + x                                                   *");
 
-        double y;
 
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
-
+        double y = (double)x / (Math.Pow(Math.Pow(x, 2.0) + x, 0.5));
+        y = Math.Round(y, 3);
+        Console.WriteLine("Результат " + y);
         string res = ds.SaveToFileTextData(x);
         Console.WriteLine("Файл " + res);
         Console.WriteLine("Создан");
