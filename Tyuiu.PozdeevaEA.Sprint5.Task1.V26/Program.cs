@@ -9,24 +9,27 @@ internal class Program
 
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* Спринт #5                                                               *");
-        Console.WriteLine("* Тема: Класс File. Запись данных в текстовый файл                        *");
-        Console.WriteLine("* Задание #0                                                              *");
-        Console.WriteLine("* Вариант #18                                                             *");
+        Console.WriteLine("* Тема: Класс File. Запись набора данных в текстовый файл                 *");
+        Console.WriteLine("* Задание #1                                                              *");
+        Console.WriteLine("* Вариант #26                                                             *");
         Console.WriteLine("* Выполнил: Поздеева Елизавета Александровна | ПКТб-25-1                  *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* УСЛОВИЕ:                                                                *");
-        Console.WriteLine("* Дано выражение вычислить его значение при x = 3, результат сохранить    *");
-        Console.WriteLine("* в текстовый файл OutPutFileTask0.txt и вывести на консоль.              *");
-        Console.WriteLine("* Округлить до трёх знаков после запятой.                                 *");
+        Console.WriteLine("* Дана функция:                                                           *");
+        Console.WriteLine("*                2x + 6                                                   *");
+        Console.WriteLine("*      F(x) =  ----------- - 3                                            *");
+        Console.WriteLine("*              cos(x) + x                                                 *");
+        Console.WriteLine("* (Произвести табулирование) f(x) на заданном диапазоне [-5;5] с шагом 1. *");
+        Console.WriteLine("* Округлить до двух знаков после запятой.                                 *");
 
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
         Console.WriteLine("***************************************************************************");
 
-        Console.WriteLine("Дано выражение:                                                           *");
-        Console.WriteLine("*                   x                                                     *");
-        Console.WriteLine("*      y(x) =  -----------                x = 3                           *");
-        Console.WriteLine("*              /---2------                                                *");
+        Console.WriteLine("Дана функция:                                                             *");
+        Console.WriteLine("*                2x + 6                                                   *");
+        Console.WriteLine("*      F(x) =  -----------                                          *");
+        Console.WriteLine("*              cos(x) + x                                                *");
         Console.WriteLine("*             /   x + x                                                   *");
 
 
