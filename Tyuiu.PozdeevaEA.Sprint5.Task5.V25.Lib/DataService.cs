@@ -18,11 +18,16 @@ namespace Tyuiu.PozdeevaEA.Sprint5.Task5.V25.Lib
 
                     foreach (string numberStr in numbers)
                     {
-                        res = res * double.Parse(numberStr, CultureInfo.InvariantCulture);
+                        double number = double.Parse(numberStr, CultureInfo.InvariantCulture);
+
+                        if (number % 1 != 0 || numberStr.Contains('.'))
+                        {
+                            res = res * number;
+                        }
                     }
                 }
             }
-            return res;
+            return Math.Round(res,3);
         }
     }
 }
