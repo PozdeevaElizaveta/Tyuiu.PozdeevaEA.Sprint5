@@ -23,7 +23,7 @@ namespace Tyuiu.PozdeevaEA.Sprint5.Task7.V12.Lib
 
             string transformedText = result.ToString();
 
-            string outputPath = @"C:\DataSprint5\OutPutDataFileTask7V12.txt";
+            string outputPath = @"C:\Users\lpozd\AppData\Local\Temp\OutPutDataFileTask7V12.txt";
             File.WriteAllText(outputPath, transformedText);
 
             return transformedText;
