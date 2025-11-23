@@ -1,4 +1,3 @@
-﻿using Tyuiu.PozdeevaEA.Sprint5.Task7.V12.Lib;
 internal class Program
 {
     private static void Main(string[] args)
