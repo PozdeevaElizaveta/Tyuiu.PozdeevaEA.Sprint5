@@ -1,3 +1,4 @@
+﻿using Tyuiu.PozdeevaEA.Sprint5.Task7.V12.Lib;
 internal class Program
 {
     private static void Main(string[] args)
@@ -22,15 +23,13 @@ internal class Program
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
         Console.WriteLine("***************************************************************************");
 
-        string path = @"C:\Users\lpozd\source\repos\Tyuiu.PozdeevaEA.Sprint5\Tyuiu.PozdeevaEA.Sprint5.Task7.V12\bin\Debug\net8.0\InPutDataFileTask7V12.txt";
-        Console.WriteLine("Исходный файл с данными: " + path);
+
 
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
 
-        string res = ds.LoadDataAndSave(path);
-        Console.WriteLine("Измененный текст: " + res);
+      
 
         Console.ReadKey();
     }
